@@ -102,6 +102,16 @@ void traverse() {
 	}
 }
 
+void searchData() {
+	if (listEmpty()) {
+		cout << "List kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
+
+}
+
 int main(){
 
 }

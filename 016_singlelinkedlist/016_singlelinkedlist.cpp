@@ -9,7 +9,21 @@ struct Node {
 
 Node* START = NULL;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+void addNode() {
+	int nim;
+	string nama;
+	Node* nodeBaru = new Node();
+
+	cout << "Masukan Nim  : ";
+	cin >> nim;
+	cout << "Masukan nama : ";
+	cin >> nama;
+
+	nodeBaru->noMhs = nim;
+	nodeBaru->name = nama;
+
+}
+
+int main(){
+
 }
